@@ -13,6 +13,7 @@ To build the debian binary run (after cding into the repository):
 sudo apt-get install build-essential debhelper autotools-dev binutils libssl-dev libpam0g-dev zlib1g-dev
 ./configure
 dpkg-buildpackage
+dpkg -i ../shellinabox_{ver}_{arch}.deb
 ```
 Original Readme
 ---
